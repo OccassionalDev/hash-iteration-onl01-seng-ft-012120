@@ -16,7 +16,7 @@ def age_appropriate_birthday(birthday_kids)
   #Step 1: For each kids' name, iterate through searching for ages 12 and younger
   
   birthday_kids.each do |kids_name, age|
-    #Step 2: If age < 12, output the birthday message, else print the other message
+    #Step 2: If age <= 12, output the birthday message, else print the you are too old for this message
     
     if age <= 12
       puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
@@ -25,7 +25,6 @@ def age_appropriate_birthday(birthday_kids)
       puts "You are too old for this."
     end
   end
-  
 end
 
 
