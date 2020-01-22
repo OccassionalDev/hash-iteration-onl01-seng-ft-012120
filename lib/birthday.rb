@@ -12,7 +12,7 @@ def happy_birthday(birthday_kids)
   end
 end
 
-def age_appropriate_birthday
+def age_appropriate_birthday(birthday_kids)
   #Step 1: For each kids' name, iterate through searching for ages 12 and younger
   
   birthday_kids.each do |kids_name, age|
