@@ -19,7 +19,7 @@ def age_appropriate_birthday
     #Step 2: If age < 12, output the birthday message
     
     if age < 12
-      
+      puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
     end
   end
   
